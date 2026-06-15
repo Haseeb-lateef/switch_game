@@ -58,6 +58,8 @@ btnHold.addEventListener('click', function () {
 
     if (scores[activePlayer] >= 20) {
       playing = false;
+      diceEl.classList.add('hidden');
+
       console.log(playing);
       document
         .querySelector(`.player--${activePlayer}`)
@@ -70,4 +72,27 @@ btnHold.addEventListener('click', function () {
       switchPlayer();
     }
   }
+});
+
+btnNew.addEventListener('click', function () {
+  // reset scores
+  scores[0] = 0;
+  scores[1] = 0;
+  currentScore = 0;
+  activePlayer = 0;
+  playing = true;
+
+  // reset UI
+  score0EL.textContent = 0;
+  score1EL.textContent = 0;
+  current0E0.textContent = 0;
+  current1El.textContent = 0;
+
+  // hide dice
+  diceEl.classList.add('hidden');
+
+  // remove winner/active classes and reset to player 1 active
+  player0El.classList.remove('player--winner', 'player--active');
+  player1El.classList.remove('player--winner', 'player--active');
+  player0El.classList.add('player--active');
 });
