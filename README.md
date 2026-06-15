@@ -4,7 +4,7 @@ A fun and interactive two-player dice game built with vanilla HTML, CSS, and Jav
 
 ## 🎮 Game Overview
 
-**Pig Dice** is a classic turn-based dice rolling game where players race to reach a winning score first. It's a game of strategy and luck—know when to hold and when to roll!
+**The Switch Game** is a  turn-based dice rolling game where players race to reach a winning score first. It's a game of strategy and luck—know when to hold and when to roll!
 
 ### How to Play
 
@@ -12,7 +12,7 @@ A fun and interactive two-player dice game built with vanilla HTML, CSS, and Jav
 2. **Current Score**: Every roll adds to your current score for this turn
 3. **Beware of 1**: Rolling a 1 ends your turn and loses all current turn points
 4. **Hold Your Score**: Click "Hold" to bank your current score and pass the turn
-5. **Win the Game**: First player to reach 20 points wins!
+5. **Win the Game**: First player to reach 100 points wins!
 
 ## 🎯 Game Rules
 
@@ -34,9 +34,9 @@ A fun and interactive two-player dice game built with vanilla HTML, CSS, and Jav
 
 ## 🛠️ Built With
 
-- **HTML** (18.8%) - Structure and markup
-- **CSS** (41.8%) - Styling and layout
-- **JavaScript** (39.4%) - Game logic and interactivity
+- **HTML** - Structure and markup
+- **CSS** - Styling and layout
+- **JavaScript** - Game logic and interactivity
 
 ## 🚀 Play Online
 
@@ -78,12 +78,6 @@ This project demonstrates:
 - CSS flexbox and responsive design
 - Clean code practices with commented logic
 
-## 💡 Tips for Winning
-
-- Don't get too greedy—accumulating points is better than losing everything on a 1
-- Watch your opponent's score to adjust your risk tolerance
-- Hold when you have a good score advantage
-- Early-game strategy can set you up for victory
 
 ## 📝 License
 
