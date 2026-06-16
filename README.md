@@ -4,7 +4,7 @@ A fun and interactive two-player dice game built with vanilla HTML, CSS, and Jav
 
 ## 🎮 Game Overview
 
-**The Switch Game** is a  turn-based dice rolling game where players race to reach a winning score first. It's a game of strategy and luck and knowing when to hold and when to roll!
+**The Pig Game** is a  turn-based dice rolling game where players race to reach a winning score first. It's a game of strategy and luck and knowing when to hold and when to roll!
 
 ### How to Play
 
