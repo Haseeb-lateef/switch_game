@@ -20,7 +20,7 @@ A fun and interactive two-player dice game built with vanilla HTML, CSS, and Jav
 - Each roll awards points equal to the die face (2-6)
 - Rolling a 1 forfeits all current turn points and switches to the other player
 - Players can choose to "Hold" and bank their points or risk rolling again
-- First to reach 20 points wins the game
+- First to reach 100 points wins the game
 - Click "New Game" to reset and play again
 
 ## 🕹️ Features
